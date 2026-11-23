@@ -1,0 +1,16 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'jp.maya.stratatrial'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'jp.maya.stratatrial'
+        minSdk 29
+        targetSdk 33
+        versionCode 1
+        versionName '0.1'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
