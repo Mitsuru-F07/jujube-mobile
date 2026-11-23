@@ -39,6 +39,10 @@ No private keys, personal device pins, signing assets, model weights, APK/IPA, u
 
 ## Credits and licensing
 
+**Acknowledgements / 謝辞:** [Upstream project credits and the distinction between Jujube and its dependencies](ACKNOWLEDGEMENTS.md).
+
+Jujube is an independent integration. It is not the creator of the Inkling model, AtomicChat's quantization, or the GGML RPC inference engine.
+
 - [Inkling 2 Mini](https://huggingface.co/thinkingmachines/Inkling-2-Mini) by Thinking Machines Lab, model license **Apache-2.0**. The tested GGUF quantization is separately obtainable from providers including [AtomicChat](https://huggingface.co/AtomicChat/Inkling-2-Mini-GGUF).
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) by ggml-org, upstream **MIT** license, used as an external runtime (not bundled).
 - No reuse license has yet been granted for original Jujube prototype source. Public visibility alone does not imply permission to redistribute, modify or commercially use these files. Third-party components retain their own terms.
@@ -50,5 +54,7 @@ No private keys, personal device pins, signing assets, model weights, APK/IPA, u
 2026年11月23〜24日に、Inkling 2 Miniの分散推論と日本語の複数ターン会話を実機確認しました。49の論理配置スロットのうち43をPixel側へ割り当てています。現在は毎回モデルを読み込むため、1回の回答に約2〜3分かかります。
 
 公開コードでは端末固有のIP、認証ピン、開発者のローカルパスを安全なサンプルに置き換えています。**そのまま実行できる完成品ではなく、モデル・認証鍵・通信・ビルドの準備が必要です。**
+
+**謝辞：** [Acknowledgements / 謝辞](ACKNOWLEDGEMENTS.md)
 
 **「小さな力を合わせて、大きな知恵に。」**
