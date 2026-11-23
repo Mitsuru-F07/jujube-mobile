@@ -49,7 +49,7 @@ Jujube is an independent integration. It is not the creator of the Inkling model
 
 ## 日本語
 
-**Jujube（ジュジュベ）**は、iPhone 15を親機、Pixel 6 Proを子機として、**1つのLLMを2台のスマートフォンへ分散して実行する**研究プロトタイプです。
+**Jujube（ジュジュベ）**は、iPhone 15を親機、Pixel 6 Proを子機として、**1つのLLMを複数のスマートフォンへ分散して実行する**研究プロトタイプです。
 
 2026年11月23〜24日に、Inkling 2 Miniの分散推論と日本語の複数ターン会話を実機確認しました。49の論理配置スロットのうち43をPixel側へ割り当てています。現在は毎回モデルを読み込むため、1回の回答に約2〜3分かかります。
 
